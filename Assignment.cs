@@ -33,6 +33,9 @@ namespace ConsoleApp1
 
         public override double CalculateArea()
         {
+        
+
+
             return length * length;
         }
 
@@ -42,12 +45,16 @@ namespace ConsoleApp1
         }
 
         
-
-    }
- 
-
+ class Main{
+    public static void main(String[] args){
+        
+Circle c = new Circle { radius = 4 };
+Console.WriteLine( c.Calculateperimeter());
+Console.WriteLine( c.CalculateArea());  
+Console.WriteLine( c.CalculateArea());  
+        }
 }
-
+}
 
 
 
